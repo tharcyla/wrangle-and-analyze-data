@@ -1,14 +1,14 @@
-Start Date
+### Start Date
 May 17, 2022
 
-End Date
+### End Date
 Still ongoing
 
-Project Title
+### Project Title
 Wrangle and Analyze Data: WeRateDogs
 
-Description
+### Description
 TBU!
 
-Files Used
+### Files Used
 TBU!
