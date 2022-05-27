@@ -1,12 +1,16 @@
+# Project Title: Wrangle and Analyze Data from [@WeRateDogs](https://twitter.com/dog_rates)
+
 ## Start Date
 May 17, 2022
 
 ## End Date
-Submitted to Udacity for Review May 26, 2022 :hourglass_flowing_sand:
+May 27, 2022
 
-## Project Title
-
-Wrangle and Analyze Data: WeRateDogs
+## Files
+1. [Main Project File](wrangle_act.ipynb): Every data analysis step is documented in this file, from gathering data to analyzing and visualizing data
+2. [Act Report](act_report.ipynb): This report contains a brief exploratory data analysis, based on three research questions and their respective visualizations
+3. [Wrangle Report](wrangle_report.ipynb): In this document, there is a detailed walkthrough of my data wrangling efforts, which was the focus of this endeavor
+4. `data/`: This folder contains the datasets used in the project, and a few screenshots from selected tweets I used in the Act Report.
 
 ## Description
 
@@ -49,7 +53,7 @@ I ended up with the following list of issues:
 2. Four variables in one column in the `archive` table (`dog_stage`, i.e., doggo, floofer, pupper, and puppo)
 3. The dataset could be tidily represented joining the `image_prediction` table into the `archive` table to create one master dataset
 
-For detailed information on how each issue was cleaned, please check the [main project file](wrangle_act.ipynb) or the [brief report](wrangle_report.pdf) about my wrangling efforts.
+For detailed information on how each issue was cleaned, please check the [main project file](wrangle_act.ipynb) or the [brief report](wrangle_report.ipynb) about my wrangling efforts.
 
 ### Brief Exploratory Data Analysis
 
@@ -89,10 +93,4 @@ Without converting the timestamp column to datetime, this analysis wouldn't be p
 
 For this visualization, I grouped by trimester and found the average rating for tweets with only one dog. Then, I plotted a line chart.
 
-For detailed information on how each analysis was performed and their respective visualizations, please check the [main project file](wrangle_act.ipynb) or the [brief report](act_report.pdf) about the exploratory data analysis.
-
-## Files Used
-- data/image-predictions.tsv
-- data/tweet_json.txt
-- data/twitter_archive_master.csv
-- data/twitter-archive-enhanced.csv
+For detailed information on how each analysis was performed and their respective visualizations, please check the [main project file](wrangle_act.ipynb) or the [brief report](act_report.ipynb) about the exploratory data analysis.
