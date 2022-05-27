@@ -49,7 +49,7 @@ I ended up with the following list of issues:
 2. Four variables in one column in the `archive` table (`dog_stage`, i.e., doggo, floofer, pupper, and puppo)
 3. The dataset could be tidily represented joining the `image_prediction` table into the `archive` table to create one master dataset
 
-For detailed information on how each issue was cleaned, please check the [main project file](wrangle_act.ipynb) or the [brief report](wrangle_report.html) about my wrangling efforts.
+For detailed information on how each issue was cleaned, please check the [main project file](wrangle_act.ipynb) or the [brief report](wrangle_report.pdf) about my wrangling efforts.
 
 ### Brief Exploratory Data Analysis
 
@@ -89,7 +89,7 @@ Without converting the timestamp column to datetime, this analysis wouldn't be p
 
 For this visualization, I grouped by trimester and found the average rating for tweets with only one dog. Then, I plotted a line chart.
 
-For detailed information on how each analysis was performed and their respective visualizations, please check the [main project file](wrangle_act.ipynb) or the [brief report](act_report.html) about the exploratory data analysis.
+For detailed information on how each analysis was performed and their respective visualizations, please check the [main project file](wrangle_act.ipynb) or the [brief report](act_report.pdf) about the exploratory data analysis.
 
 ## Files Used
 - data/image-predictions.tsv
